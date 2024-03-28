@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Livros</h1>
+        <label for="quantidadeInput">Quantidade de livros a sortear:</label>
+        <input type="number" id="quantidadeInput" min="1">
+        <button onclick="exibirInputs()">Confirmar</button>
+        <div id="inputs" class="inputs-container"></div>
+        <button onclick="sortearLivros()">Sortear Livros</button>
+        <div id="resultado" class="resultado-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
