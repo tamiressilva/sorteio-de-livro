@@ -8,8 +8,8 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-    color: rgb(55, 5, 105);
-    background-color: rgb(55, 5, 105);
+    color: black;
+    background-color: black;
     
 }
 
@@ -31,7 +31,7 @@ button {
 }
 
 button {
-    background-color: rgb(201, 14, 103);
+    background-color: rgb(93, 0, 155);
     color: white;
     border: none;
     border-radius: 10px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color:  rgb(255, 51, 150);
+    background-color:  rgb(163, 25, 255);
 }
 
 .inputs-container {
